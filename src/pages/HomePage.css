@@ -1,0 +1,32 @@
+.homepage {
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.library-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 24px;
+}
+
+.library-card img {
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.library-card .card-title a {
+  text-decoration: none;
+  color: #0d6efd;
+ 
+}
+
+.library-card .card-title a:hover {
+  text-decoration: underline;
+}
