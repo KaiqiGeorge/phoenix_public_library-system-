@@ -1,9 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
-import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
-import MemberManager from "./pages/components/MemberManager";
-import EventManager from "./pages/components/EventManager";
 import EventDetail from "./pages/components/EventDetail";
 
 //设置路由

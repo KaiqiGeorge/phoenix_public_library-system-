@@ -4,12 +4,9 @@
 import { auth } from "../firebase";
 import { signOut } from "firebase/auth";
 import { useNavigate, Routes, Route, Link } from "react-router-dom";
-import MemberManager from "./components/MemberManager";
-import EventManager from "./components/EventManager";
 import { useState, useEffect } from "react";
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
-import Welcome from "./Welcome";
 import Events from "./Events";
 import Members from "./Members";
 import HomePage from "./HomePage";
